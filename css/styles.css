@@ -1,0 +1,250 @@
+
+#title {
+    background-image: url('../images/my-music.jpg'); 
+    background-size: contain;
+    image-rendering: high-quality;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-position: center top; 
+    background-color: #000000;
+   
+}
+
+
+.music-apps{
+    text-align: center;
+    color: #34d7e2;
+    line-height: 1.5;
+}
+
+body {
+    font-family: 'Limelight', cursive;
+    margin: 0%;
+}
+
+.phone {
+    padding-bottom: 20px;
+    image-rendering: high-quality;
+    width: 50%;
+    margin-left: 25%;
+    
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    .phones{
+        position: static;
+    }
+}
+
+h1 {
+    font-family: 'Limelight', cursive;
+    font-size: 3.2rem;
+    line-height: 1.5;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: rgba(0, 0, 0, 0.144);
+}
+
+.row{
+    padding-top: 2.3rem;
+    
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    letter-spacing: 5px;
+    color: #e7e6e1ec;
+    padding-left: 35px;
+}
+
+
+.navbar-nav{
+    margin-left: auto;
+    padding-right: 35px;
+    color: #e7e6e1fa;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.download-button{
+    margin: 10% 4% 5% 0%;
+    
+}
+
+/* icons middle */
+
+#features{
+padding: 50px;
+}
+
+
+.cons{
+    padding-bottom: 5px;
+}
+.fa-headphones{
+    color:#111d5e;
+}
+
+.fa-headphones:hover{
+    color: #511281;
+}
+.fa-record-vinyl{
+    color: #c70039;
+}
+
+.fa-record-vinyl:hover{
+    color: #f55c47 ;
+}
+
+.fa-icons{
+    color: #f37121;
+}
+
+.fa-icons:hover{
+    color: #ffbd69 ;
+}
+
+.text{
+    color: #8f8f8f;
+    font-size: 1.2rem;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.center {
+    text-align: center;
+    
+}
+
+h3{
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+/* Top 5 Artist */
+
+#Artist{
+    background-color: #34d7e2;
+    text-align: center;
+}
+
+.carousel-item {
+    padding: 3% 15%;
+}
+
+h2{
+    color: #e6e4e4;
+}
+
+.tops{
+    padding-top: 5px;
+    color: #949494;
+}
+
+li{
+    margin: 10px 0;
+  }
+
+.T-Artist{
+border-radius: 20%;
+margin: 20px;
+}
+
+#press{
+    background-color: #e7e7e7b9;
+    text-align: center;
+    border-style: solid;
+    border-color: #FFBF00;
+}
+
+.labels{
+    width: 18%;
+    padding: 3% 
+}
+
+
+/* music pricing */
+
+#pricing{
+    padding: 50px;
+}
+
+.friends {
+    padding:  2%;
+}
+
+
+.individual{
+    padding:  2%;
+}
+
+
+.plans{
+   text-align: center;
+  padding: 5%;
+
+}
+
+.member{
+    color: #34d7e2;
+    padding-bottom: 7px;
+    font-size: 2.5rem;   
+}
+
+.simple{
+    Font-size: 1.3rem;
+}
+.member:hover{
+    color: #FFBF00;
+}
+
+
+/* Downloading Live-Music App */
+
+#cta{
+    text-align: center;
+    text-align: center;
+    border-style: solid;
+    border-color: #FFBF00;
+    background: radial-gradient(#dd9127, skyblue);
+    padding: 3%;
+
+}
+
+.app{
+    padding-bottom: 30px;
+    color: rgb(214, 214, 214);
+}
+
+
+.play{
+    margin: 1% 2% 3% 0%;
+}
+
+/* footer icons */
+
+
+#footer{
+    text-align: center;
+    padding-top: 6%;
+}
+
+#media{
+    text-align: center;
+    padding: 5%;
+}
+
+.social{
+    color:#34d7e2 ;
+}
+.social:hover{
+    color: #FFBF00;
+}
